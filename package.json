@@ -1,7 +1,7 @@
 {
   "name": "vortx-gl",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Secure High-performance WebGL Graph Rendering Library",
   "type": "module",
   "main": "./dist/vortx-gl.umd.js",
