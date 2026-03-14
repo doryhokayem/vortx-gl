@@ -1,0 +1,44 @@
+{
+  "name": "vortx-gl",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Secure High-performance WebGL Graph Rendering Library",
+  "type": "module",
+  "main": "./dist/vortx-gl.umd.js",
+  "module": "./dist/vortx-gl.es.js",
+  "types": "./dist/index.d.ts",
+  "style": "./dist/vortx-gl.css",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "style": "./dist/vortx-gl.css",
+      "import": "./dist/vortx-gl.es.js",
+      "require": "./dist/vortx-gl.umd.js"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "examples"
+  ],
+  "peerDependencies": {
+    "gl-matrix": "^3.0.0",
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "webgl",
+    "graph",
+    "visualization",
+    "performance",
+    "vortx-gl",
+    "network"
+  ],
+  "author": "VortxGL Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doryhokayem/vortx-gl.git"
+  }
+}
